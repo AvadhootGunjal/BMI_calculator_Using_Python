@@ -1,0 +1,17 @@
+#Installation of Libraries
+
+
+Step 1: Install the required libraries
+
+Before you can import these libraries, you need to make sure they are installed in your Python environment. You can install them using pip, the Python package manager. Open a terminal or command prompt and type the following commands:
+
+pip install tkinter (this is usually included with Python, so you might not need to install it)
+pip install pillow (this is the friendly PIL fork, which is more actively maintained)
+
+
+Step 2: Verify the installations
+
+After installing the libraries, you can verify that they are installed correctly by opening a new terminal or command prompt and typing:
+
+python -c "import tkinter; print(tkinter.__version__)" (this should print the version of tkinter)
+python -c "from PIL import Image; print(Image.__version__)" (this should print the version of PIL)
